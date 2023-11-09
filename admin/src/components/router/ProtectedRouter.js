@@ -3,7 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Master from '../layout/Master';
 import Dashboard from '../modules/Dashboard';
 
-const MyRoute = createBrowserRouter([
+const ProtectedRouter = createBrowserRouter([
     {
         path: '/',
         element: <Master />,
@@ -20,4 +20,4 @@ const MyRoute = createBrowserRouter([
     },
 ]);
 
-export default MyRoute;
+export default ProtectedRouter;

@@ -1,6 +1,5 @@
 import React from 'react';
 import Breadcrumb from '../partials/Breadcrumb';
-import { Helmet } from 'react-helmet';
 
 const Dashboard = () => {
     return (
