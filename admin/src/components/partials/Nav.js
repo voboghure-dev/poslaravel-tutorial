@@ -6,6 +6,7 @@ const Nav = () => {
     const handleSidebar = () => {
         $('body').toggleClass('sb-sidenav-toggled');
     };
+
     return (
         <nav className='sb-topnav navbar navbar-expand navbar-dark bg-dark'>
             <a className='navbar-brand ps-3' href='index.html'>
@@ -19,7 +20,9 @@ const Nav = () => {
             >
                 <i className='fas fa-bars'></i>
             </button>
-            <span className='d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0 text-white'>Admin</span>
+            <span className='d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0 text-white'>
+                Admin
+            </span>
             <ul className='navbar-nav ms-auto ms-md-0 me-3 me-lg-4'>
                 <li className='nav-item dropdown'>
                     <a

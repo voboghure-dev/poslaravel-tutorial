@@ -2,7 +2,6 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Master from '../layout/Master';
 import Dashboard from '../modules/Dashboard';
-import Test from '../modules/Test';
 
 const MyRoute = createBrowserRouter([
     {
@@ -13,10 +12,10 @@ const MyRoute = createBrowserRouter([
                 path: '/',
                 element: <Dashboard />,
             },
-            {
-                path: '/test',
-                element: <Test />,
-            },
+            // {
+            //     path: '/test',
+            //     element: <Test />,
+            // },
         ],
     },
 ]);

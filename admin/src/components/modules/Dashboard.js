@@ -1,12 +1,12 @@
 import React from 'react';
+import Breadcrumb from '../partials/Breadcrumb';
+import { Helmet } from 'react-helmet';
 
 const Dashboard = () => {
     return (
         <>
-            <h1 className='mt-4'>Dashboard</h1>
-            <ol className='breadcrumb mb-4'>
-                <li className='breadcrumb-item active'>Dashboard</li>
-            </ol>
+            <Breadcrumb title={'Dashboard'} />
+
             <div className='row'>
                 <div className='col-xl-3 col-md-6'>
                     <div className='card bg-primary text-white mb-4'>
