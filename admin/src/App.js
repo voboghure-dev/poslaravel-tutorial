@@ -9,7 +9,7 @@ import ProtectedRouter from './components/router/ProtectedRouter';
 import PublicRouter from './components/router/PublicRouter';
 
 function App() {
-    const [auth, setAuth] = useState(true);
+    const [auth, setAuth] = useState(false);
 
     return <>{auth ? <RouterProvider router={ProtectedRouter} /> : <RouterProvider router={PublicRouter} />}</>;
 }
